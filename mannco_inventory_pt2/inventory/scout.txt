@@ -1,0 +1,5 @@
+Stock:
+    10 Bats,
+    5 Ball Caps,
+    100 Crack Rocks,
+

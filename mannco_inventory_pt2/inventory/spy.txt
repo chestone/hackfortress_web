@@ -1,0 +1,4 @@
+Stock:
+    50 Switchblade Knives,
+    32 Double Breasted Suits,
+    15 Old Timey Revolvers

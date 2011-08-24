@@ -1,0 +1,5 @@
+Stock:
+    50 Wrenches,
+    1 Golden Wrench,
+    5000 Metal Scraps,
+    200 Construction Helmets

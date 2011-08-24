@@ -1,0 +1,14 @@
+body
+    h1 MannCo. Inventory List
+    #result-set
+    #question Quest: Find Mann Co's secret weapon! It's somewhere on the inventory.
+    #bonus-question Bonus-Question: What is Mann Co's secret weapon?
+
+    script(type="text/javascript", src="javascripts/jquery.js")
+    script(type="text/javascript")
+        $(function() {
+            var dirToSearch = 'inventory';
+            $.post('/list', {dir : dirToSearch}, function(data) {
+                $('#result-set').html('<pre>' + data.results + '</pre>');
+            });
+        });

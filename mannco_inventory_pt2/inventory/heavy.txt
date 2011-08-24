@@ -1,0 +1,7 @@
+Stock:
+    5m Rounds of Ammunition,
+    500 Sandvichs,
+    20 Straight Razors,
+    500G Gasoline,
+    5 Pair Boxing gloves
+

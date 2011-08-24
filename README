@@ -1,0 +1,12 @@
+These puzzles were put toegher for the Hack portion of the HackFortress event at DEFCON 19 and were in the Web Security category.
+
+Dependencies:
+Node.js >= 0.4.10 (http://nodejs.org)
+NPM (http://npmjs.org)
+Express.js (http://expressjs.com)
+Jade Templating engine (http://jade-lang.com/)
+sqlite3 bindings (https://github.com/developmentseed/node-sqlite3)
+
+Instructions: 
+
+Run app.js and the puzzle should print out what port it's running on.

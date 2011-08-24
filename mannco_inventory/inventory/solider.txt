@@ -1,0 +1,4 @@
+Stock:
+    1000 Standard Rockets,
+    500 Shotgun Shells,
+    5 Shovels

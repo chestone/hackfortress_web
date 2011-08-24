@@ -1,0 +1,27 @@
+body
+    h4=title
+    #container 
+        #main
+            h1 Mann Co. Special Notice.
+            p Mann Co. has a new special weapon for it's team!
+
+            a#link Click here to find out what!
+            #answer
+
+script(type="text/javascript", src="javascripts/jquery.js")
+script(type="text/javascript")
+    $(function() {
+        $('#link').click(function() {
+            $(this).fadeOut();
+            $('#answer').html('Introducing The Brand New: ');
+            $.post('/', function(data) {
+                var answer;
+                if (datar) {
+                    answer = data;
+                } else {
+                    answer = '(empty)';
+                }
+                $('#answer').append(answer);
+            });
+        });
+    });

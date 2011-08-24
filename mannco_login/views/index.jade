@@ -1,0 +1,36 @@
+h1= title
+p Welcome to #{title}
+#login
+    #error #{error}
+    form(name="login")
+        label Username:
+        input(type="text", name="username", id="username")
+        br
+        label Password:
+        input(type="text", name="password", id="password")
+        br
+        input(type="submit")
+
+#question Question: What is the Solider's favorite food?
+script(type="text/javascript", src="javascripts/jquery.js")
+script(type="text/javascript")
+    $(function() {
+        function validateForm() {
+            var regex = /^[a-z0-9]{1,}$/ig;
+            if (document.login.username.value.search(regex) == -1) {
+                document.getElementById('error').innerHTML = 'Bad Username Format';
+                document.getElementById('username').style.color = 'red';
+                return false;
+            } else if (document.login.password.value.search(regex) == -1) {
+                document.getElementById('error').innerHTML = 'Bad Password Format';
+                document.getElementById('password').style.color = 'red';
+                return false;
+            } else {
+                document.login.action = '/login';
+                document.login.method = 'post';
+                return true;
+            }
+        }
+
+        $('form').submit(validateForm);
+    }); 

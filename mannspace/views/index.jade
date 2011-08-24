@@ -1,0 +1,18 @@
+h4= title
+p Welcome to #{headline}
+
+#main
+    #description MannSpace is an upcoming social network for Mann Co. fans! If you would like to be involved in our initial 'preview' release please fill out the form below and you can preview this brand new feature.
+    form(name="signup", id="signup", method="post", action="/signup")
+        label Name: 
+        input(type="text", name="name")
+        br
+        label Description: 
+        input(type="textarea", name="description")
+        br
+        label Favorite Class: 
+        select#classes(name="classes")
+            - each class in classes
+                option #{class}
+        br
+        input(type="submit")

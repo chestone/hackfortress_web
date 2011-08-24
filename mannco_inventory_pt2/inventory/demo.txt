@@ -1,0 +1,4 @@
+Stock:
+    ALL THE HATS,
+    400 Timesd Grenades,
+    200 Remote Grenades,

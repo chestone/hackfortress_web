@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px Comic Sans, Comic Sans MS, sans-serif;
+  background-image: url('../images/pimpbg.gif');
+  color: pink;
+}
+
+#main {
+   background-color: grey;
+}
+
+a {
+  color: #00B7FF;
+}

@@ -1,0 +1,4 @@
+Stock: 
+    500 Needles,
+    5 Bone Saws,
+    5 Pair Hipster Glasses,

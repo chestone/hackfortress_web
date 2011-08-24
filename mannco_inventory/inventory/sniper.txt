@@ -1,0 +1,5 @@
+Stock:
+    300 Ranged bullets,
+    700 SMG Bullets,
+    5 Machetes,
+    3 Pair Aviator Sunglasses
